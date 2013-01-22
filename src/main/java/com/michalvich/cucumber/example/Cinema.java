@@ -4,7 +4,12 @@ public class Cinema {
 
     private Integer numberOfSeats;
 
-    private Integer reservedSeats = 0;
+    private Integer reservedSeats;
+
+    public Cinema() {
+        this.numberOfSeats = 0;
+        this.reservedSeats = 0;
+    }
 
     public Integer getNumberOfSeats() {
         return numberOfSeats;
